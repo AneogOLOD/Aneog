@@ -11,14 +11,15 @@ body{
   left:0;
   right: 0;
   background-color: rgb(12, 9, 31);
-   padding: 20px;
+  padding: 5px 40px;
    position: fixed;
    display: flex;
    justify-content: space-between;
   }
 .header_logo{
-  width: 130px;
-  margin: 0 20px;
+  width: 120px;
+  height: 30px;
+  padding: 10px;
 }
 .header_menu{
   display: flex;
@@ -26,7 +27,8 @@ body{
 }
 .header_menu_a{
   vertical-align: top;
-  margin: 0 20px;
+  padding: 10px;
+  margin: 0 10px;
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: color .2s linear;
@@ -42,6 +44,7 @@ color: rgb(251, 249, 111);
   position: fixed;
   left: 0;
   right: 0;
+  padding: 15px 30px;
   justify-content: space-between;
   font-family: 'Open Sans', sans-serif;
 }
@@ -58,7 +61,7 @@ color: rgb(251, 249, 111);
   margin: 0 20px;
 }
 .footer_contact{
-  margin: 0 50px;
+padding: 0 20px;
 }
 
 
